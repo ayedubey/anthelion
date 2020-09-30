@@ -70,7 +70,7 @@ As mentioned in the beginning of the document this project contains the complete
 
 8. Run `mvn package` inside the *anthelion* folder. This will create the jar "Anthelion-1.0.0-jar-with-dependencies.jar". Copy the jar to src/plugin/parse-anth/lib.
 
-9. Add the following field in conf/schema.xml (also add it to the Solr schema.xml, if you are using Solr):
+9. Add the following field in conf/schema.xml (also add it to the Solr schema.xml, if you are also using Solr):
 	```xml
 	<field name="containsSem" type="text_general" stored="true" indexed="true"/>
 	```
